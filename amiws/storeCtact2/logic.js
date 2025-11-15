@@ -1,4 +1,4 @@
-import { generateContact2Id } from '../../util/utils.js';
+import { generateContact2Id } from './utils.js';
 
 let responseFlag = true; // Inicializa el flag
 
@@ -15,14 +15,14 @@ export default async (req) => {
             status: 200,
             body: {
                 "ctact2": {
-                    "aixigoCaseId": aixigoCaseId,  
+                    "aixigoCaseId": aixigoCaseId,
                     "ctact2Id": newContact2Id
                 },
                 "response": {
                     "code": "200",
                     "message": "Store ctact2 successful",
                     "messageDetail": `Ctact2 with id: ${newContact2Id} created successfully for Aixigo case: ${aixigoCaseId}`
-                }            
+                }
             }
         };
     }
@@ -34,5 +34,5 @@ export default async (req) => {
             error: "Invalid Request" 
           }
       };
-  }    
+  }
 };

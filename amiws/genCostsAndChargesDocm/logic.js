@@ -1,4 +1,4 @@
-import { EXTERNAL_API_URL, generateCicId, getNimbusBasicAuthHeader } from '../../util/utils.js';
+import { EXTERNAL_API_URL, generateCicId, getNimbusBasicAuthHeader } from './utils.js';
 import axios from 'axios';
 import path from 'path';
 import fs from 'fs';
