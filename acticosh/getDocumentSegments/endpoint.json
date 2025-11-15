@@ -1,0 +1,5 @@
+{
+  "method": "POST",
+  "endpoint": "/api/lgt.wa/1.x/lgt_adv_sit_output-call/AdvisorySituationOutput/getDocumentSegments"
+}
+

@@ -1,0 +1,4 @@
+{
+    "method": "POST",
+    "endpoint": "/lgt-advice/stex-sim/sim-stex-ovr"
+  }
